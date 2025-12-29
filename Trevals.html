@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="Style.css" />
+    
+    <title>Travel Mates </title>
+  <link rel="icon" href="assets/favicon2.jpg" type="image/png" />
+
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Travel <span>Mates</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#destination">Destinations</a></li>
+        <li><a href="#package">Packages</a></li>
+        <li><a href="#client">Clients</a></li>
+        <a href="#tips">Travel Tips</a> 
+
+        
+      </ul>
+    </nav>
+    <header class="header">
+   
+      <video autoplay muted loop playsinline class="header__video">
+        <source src="D:\TrevalsMates.com\Video1.mp4" type="video/mp4" />
+      </video>
+    
+    
+      <div class="header__container">
+        
+
+        <h1 class="typewriter">Travel for Life<span id="typing-text"></span></h1>
+          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+         var typed = new Typed("#typing-text", {
+          strings: ["Explorer", "Adventurer", "Enjoyment"],
+        typeSpeed: 90,
+        backSpeed: 60,
+        loop: true
+         });
+        </script>
+        <p>Discover beautiful destinations</p>
+
+        
+    
+ 
+        <form action="/" class="header__form">
+          <div class="input__group">
+            <span><i class="ri-map-2-fill"></i></span>
+            <input type="text" placeholder="Where are you going?" />
+          </div>
+          <div class="input__group">
+            <span><i class="ri-map-pin-2-fill"></i></span>
+            <input type="text" placeholder="Location" />
+          </div>
+          <div class="input__group">
+            <span><i class="ri-list-ordered-2"></i></span>
+            <input type="text" placeholder="Tour type" />
+          </div>
+          <div class="input__group">
+            <button class="btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </header>
+    
+    
+
+    <section class="section__container feature__container" id="service">
+      <div class="feature__card">
+        
+        <div>
+          <h4>Best Destinations</h4>
+          <p>The "best" destinations depend on your interests (beaches, history, adventure), but popular choices include India's diverse spots like Jaipur, Udaipur, Goa and Ladakh.</p>
+        </div>
+      </div>
+      <div class="feature__card">
+        <img src="D:\TrevalsMates.com\BESTPRICE.jpg" height="120px" />
+        <div>
+          <h4>Best Price Guaranteed</h4>
+          <p>Enjoy unbeatable prices on every trip you book.</p>
+        </div>
+      </div>
+      <div class="feature__card">
+        <img src="D:\TrevalsMates.com\images.jpg" height="120px"/>
+        <div>
+          <h4>Instant Booking</h4>
+          <p>Book Now, Travel Tomorrow!", "Instant Confirmation – Your Trip Starts Now!", "Last Minute Deal? Book in 5 Mins!", or "Unlock Deals Instantly – Click to Book!".</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="destination" id="destination">
+      <div class="section__container destination__container">
+        <h2 class="section__header">Top Destinations</h2>
+        <p class="section__description">
+         
+        </p>
+        <audio id="hoverSound" src="assets/ringtone.mp3"></audio>
+        <div class="destination__grid">
+          <div class="destination__card">
+            <img src="D:\TrevalsMates.com\Ahmedabad.jpg" alt="destination" height="250px" />
+            <div class="destination__content"> Ahmedabad </div>
+          </div>
+          <div class="destination__card">
+            <img src="D:\TrevalsMates.com\taj-mahal.jpg" height="250px" />
+            <div class="destination__content"> Agar</div>
+          </div>
+          <div class="destination__card">
+            <img src="D:\TrevalsMates.com\download.webp" height="250px" />
+            <div class="destination__content"> Bikaner </div>
+          </div>
+          <div class="destination__card">
+            <img src="D:\TrevalsMates.com\Chittor Fort.jpg" height="250px" />
+            <div class="destination__content"> Chittorgarh </div>
+          </div>
+          <div class="destination__card">
+            <img src="D:\TrevalsMates.com\INDIA GATE.jpg" height="250px" />
+            <div class="destination__content"> Delhi </div>
+          </div>
+          <div class="destination__card">
+            <img src="D:\TrevalsMates.com\Hawa-Mahal_600-1280x720.jpg" height="250px" />
+            <div class="destination__content"> Jaipur </div>
+          </div>
+          <div class="destination__card">
+            <img src="D:\TrevalsMates.com\Junagarh-Fort-Bikaner.jpg" height="250px" />
+            <div class="destination__content"> Jaisalmer </div>
+          </div>
+          <div class="destination__card">
+            <img src="D:\TrevalsMates.com\Mehrangarh-Fort.jpg" height="250px" />
+            <div class="destination__content"> Jodhpur </div>
+          </div>
+          
+          <div class="destination__card">
+            <img src="D:\TrevalsMates.com\Beautiful-View-of-Lake-Pichola-with-Jag-Mandir.jpg" height="250px"/>
+            <div class="destination__content"> Udaipur </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="discount">
+      <div class="section__container discount__container">
+        <img src="D:\TrevalsMates.com\Travel-india.jpg" width="10px"  height="200px">
+        <h2>
+          Get upto 60% discount<br /><span>by joining us before summer</span>
+        </h2>
+        <div class="discount__btn">
+          <button class="btn">Join Us</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container package__container" id="package">
+      <h2 class="section__header">Featured Packages</h2>
+      <p class="section__description">
+        We will help you find the trip that's perfect for you!
+      </p>
+
+      <div class="package__grid">
+        <div class="package__card">
+          <img src="D:\TrevalsMates.com\Ahmedabad.jpg"/>
+          <div class="package__card__details">
+            <h4>Ahmedabad City Tour</h4>
+            <p>
+              Ahmedabad is a vibrant megacity in Gujarat, known for its rich history and cultural heritage.
+            </p>
+            <div>
+              <a href="https://en.wikipedia.org/wiki/Ahmedabad"> <button class="btn">Book Now</button><button class="btn"> View Details </button></a>
+              <h3>₹1000</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="package__card">
+          <img src="D:\TrevalsMates.com\taj-mahal.jpg"/>
+          <div class="package__card__details">
+            <h4>Agra City Tour</h4>
+            <p> 
+                Agra, located in northern India, is renowned for the iconic Taj Mahal, a UNESCO World Heritage Site.
+            </p>
+            <div>
+              <a href="https://en.wikipedia.org/wiki/Agra"> <button class="btn">Book Now</button><button class="btn"> View Details </button></a>
+              <h3>₹1500</h3>
+            </div>
+          </div>
+        </div>
+        <div class="package__card">
+          <img src="D:\TrevalsMates.com\download.webp"/>
+          <div class="package__card__details">
+            <h4>Bikaner City Tour</h4>
+            <p>
+                Bikaner is a city in Rajasthan, India, known for its rich history and cultural heritage. It was historically ruled by the Rajputs and has significant landmarks such as the Junagarh Fort and the Karan Mahal Palace. 
+            </p>
+            <div>
+              <a href="https://en.wikipedia.org/wiki/Bikaner"> <button class="btn">Book Now</button><button class="btn"> View Details </button></a>
+              <h3>₹2000</h3>
+            </div>
+          </div>
+        </div>
+        <div class="package__card">
+          <img src="D:\TrevalsMates.com\Chittor Fort.jpg"/>
+          <div class="package__card__details">
+            <h4>Chittorgarh City Tour</h4>
+            <p>
+              Chittorgarh Fort, located in Rajasthan, is one of the largest forts in India.
+            </p>
+            <div>
+              <a href="https://en.wikipedia.org/wiki/Chittorgarh"> <button class="btn">Book Now</button><button class="btn"> View Details </button></a>
+              <h3>₹2500</h3>
+            </div>
+          </div>
+        </div>
+        <div class="package__card">
+          <img src="D:\TrevalsMates.com\INDIA GATE.jpg"/>
+          <div class="package__card__details">
+            <h4>Delhi City Tour</h4>
+            <p>
+              Delhi is the capital of India, known for its rich history and vibrant culture.
+            </p>
+            <div>
+              <a href="https://en.wikipedia.org/wiki/Delhi"> <button class="btn">Book Now</button><button class="btn"> View Details </button></a>
+              <h3>₹3000</h3>
+            </div>
+          </div>
+        </div>
+        <div class="package__card">
+          <img src="D:\TrevalsMates.com\Hawa-Mahal_600-1280x720.jpg"/>
+          <div class="package__card__details">
+            <h4>Jaipur City Tour</h4>
+            <p>
+              Jaipur, the capital city of Rajasthan, is a vibrant city known for its rich history and culture.
+            </p>
+            <div>
+              <a href="https://en.wikipedia.org/wiki/Jaipur"> <button class="btn">Book Now</button><button class="btn"> View Details </button></a>
+              <h3>₹3500</h3>
+            </div>
+          </div>
+        </div>
+        <div class="package__card">
+          <img src="D:\TrevalsMates.com\Junagarh-Fort-Bikaner.jpg"/>
+          <div class="package__card__details">
+            <h4>Jaisalmer City Tour</h4>
+            <p>
+              Jaisalmer Fort, also known as Sonar Quila or the Golden Fort.
+            </p>
+            <div>
+              <a href="D:\24-12-2025\project\download.webp"> <button class="btn">Book Now</button><button class="btn"> View Details </button></a>
+              <h3>₹4000</h3>
+            </div>
+          </div>
+        </div>
+        <div class="package__card">
+          <img src="D:\TrevalsMates.com\Mehrangarh-Fort.jpg"/>
+          <div class="package__card__details">
+            <h4>Jodhpur City Tour</h4>
+            <p>
+              Jodhpur, located in the state of Rajasthan, is the second-largest city in India and is often referred to as the "Blue City" due to its striking blue architecture.
+             </p>
+            <div>
+              <a href="https://en.wikipedia.org/wiki/Jodhpur"> <button class="btn">Book Now</button><button class="btn"> View Details </button></a>
+              <h3>₹4500</h3>
+            </div>
+          </div>
+        </div>
+        <div class="package__card">
+          <img src="D:\TrevalsMates.com\Beautiful-View-of-Lake-Pichola-with-Jag-Mandir.jpg"/>
+          <div class="package__card__details">
+            <h4>Udaipur City Tour</h4>
+            <p>
+              </p>
+            <div>
+              <a href="https://en.wikipedia.org/wiki/Udaipur"> <button class="btn">Book Now</button><button class="btn"> View Details </button></a>
+              <h3>₹5000</h3>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">Client Reviews</h2>
+      <p class="section__description">
+        We have many happy customers who booked holidays with us
+      </p>
+  
+      <div class="swiper">
+    
+        <div class="swiper-wrapper">
+       
+          <div class="swiper-slide">
+            <div class="client__card">
+             
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+                Customer service is very much appreciated.. 
+                Communication and behaviour with the customer is really good 
+                and helpful in case of finding places.. Keep up the good work!!
+                <br>
+              </p>
+              <h4>Name:- Himanshu Bhatt</h4>
+        
+          
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              
+
+
+
+
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+               I recently used Jaisalmer Tour and Travels for my trip and I must say, 
+               their vehicle was spotless! The service was excellent too. The driver was polite and helpful. 
+               I highly recommend them for a hassle-free travel experience.
+              </p>
+              <h4>Bindiya Goyal</h4>
+             
+          
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+               Its really good service and very cheaper rates of air tickets and holiday packages compared to others.. Carry on guys.
+              </p>
+              <h4>Akansha Jain </h4>
+          
+            
+            </div>
+          </div>
+          <div class="swiper-slide">
+            
+        
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+
+
+      <section id="tips" class="travel-tips section__container">
+      
+        <h2 class="section__header">Traveler's Tips</h2>
+        <div class="tips__slider">
+          <div class="tip__card"><h5>1. Always carry your ID and travel documents safely.</h5><h5>2. Pack light and keep only necessary items.   </h5> <h5> 3.  Keep some local currency with you.<h5>
+          </div>
+          <div class="tip__card"><h5>4.  Follow local rules and traditions of the place you visit.</h5><h5>5.  Stay hydrated and eat clean food.</h5><h5>6.  Keep emergency contact numbers saved on your phone.</h5></div>
+          <div class="tip__card"><h5>7.  Always inform someone about your travel plans.</h5><h5>8.  Do not share your personal information with strangers.</h5></div>
+        </div>
+  <br>
+  <br>
+        <h2 class="section__header">Did You Know?</h2>
+        <p class="section__description">Interesting facts about Ayodhya, Jaipur, and Rajasthan.</p>
+        <div class="facts__grid">
+          <div class="fact__card">Did you know the Ram Mandir in Ayodhya is expected to become one of the largest temples in the world?</div>
+          <div class="fact__card">Jaipur, also known as the Pink City, was India's first planned city and is famous for its unique architecture.</div>
+          <div class="fact__card">Rajasthan is home to the Thar Desert, one of the largest deserts in India, and features a rich cultural heritage.</div>
+        </div>
+       
+
+
+
+
+
+
+ 
+  
+        
+        
+      </section>
+
+
+    <section class="subscribe">
+      <div class="section__container subscribe__container">
+        <h2>Subscribe to our newsletter for updates</h2>
+        <div>
+          <p>For the best recommendation of your. Please subscribe us.</p>
+          
+          <form action="/" id="subscribe-form">
+            <input type="text" placeholder="Enter Your Email Here" id="email-input" />
+            <button class="btn" type="button" onclick="showEmail()">SUBSCRIBE</button>
+          </form>
+          
+        </div>
+      </div>
+    </section>
+  
+    
+    
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Travels<span>mate</span></a>
+          </div>
+          <p>
+            Explore the world's best destinations, enjoy unbeatable prices, and
+            book your perfect getaway instantly.
+          </p>
+          <h4>CONNECT WITH US</h4>
+          <ul class="footer__socials">
+            <li>
+              <a href="https://web.whatsapp.com/"><i class="ri-whatsapp-fill"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="ri-google-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/gopal-sharma-4b0944264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ri-linkedin-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>DESTINATIONS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Ahmedabad</a></li>
+            <li><a href="#">Agra</a></li>
+            <li><a href="#">Bikaner</a></li>
+            <li><a href="#">Chittorgarh</a></li>
+            <li><a href="#">Delhi</a></li>
+            <li><a href="#">Jaipur</a></li>
+            <li><a href="#">Jaisalmer</a></li>
+            <li><a href="#">Jodhpur</a></li>
+            <li><a href="#">Udaipur</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR ACTIVITIES</h4>
+          <ul class="footer__links">
+            <li><a href="#">Enjoy</a></li>
+            <li><a href="#">Peak Climbing</a></li>
+            <li><a href="#">Biking</a></li>
+            <li><a href="#">River Rafting</a></li>
+            <li><a href="#">Cultural Tour</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 travel Mate. All rights reserved.
+      </div>
+    </footer>
+    
+  
+    
+    
+    
+    <audio id="hoverSound" src="assets/ringtone.mp3" preload="auto"></audio>
+    
+
+    
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+  const hoverSound = document.getElementById("hoverSound");
+  const destinationCards = document.querySelectorAll(".destination__card");
+
+  destinationCards.forEach((card) => {
+    card.addEventListener("mouseenter", () => {
+      hoverSound.currentTime = 0; 
+      hoverSound.play();
+    });
+    
+    card.addEventListener("mouseleave", () => {
+      hoverSound.pause();
+    });
+  });
+});
+
+    </script>
+
+   
+    
+    
+    
+  </body>
+</html>
